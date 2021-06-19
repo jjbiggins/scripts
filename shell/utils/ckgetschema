@@ -1,0 +1,38 @@
+#!/bin/bash
+
+NUM_ARGS=$#
+
+BETA_DEVELOPER_DIR=/Applications/Xcode-beta.app/Contents/Developer
+XCODE_BETA_BINARIES="${BETA_DEVELOPER_DIR}/usr/bin"
+cktool="$XCODE_BETA_BINARIES/cktool"
+
+TEAM_ID='VX65C2UM4F'
+DEFAULT_CONTAINER='iCloud.com.josephbiggins.Container'
+DEFAULT_ENV='Development'
+DEFAULT_OFILE=${DEFAULT_CONTAINER}_schema.txt
+
+if [[ $NUM_ARGS -gt 1 ]]; then
+    if [[ ! -z $1 ]]; then
+        CONTAINER_ID=$1
+    else
+        CONTAINER_ID=$DEFAULT_CONTAINER
+    fi
+
+    if [[ ! -z $2 ]]; then
+        CK_ENV=$2
+    else
+        CK_ENV=$DEFAULT_ENV
+        OUTPUT_FILE=$2
+    fi
+elif [[ $NUM_ARGS == 1 ]]; then
+    OUTPUT_FILE=$1
+    CONTAINER_ID=$DEFAULT_CONTAINER
+    CK_ENV=$DEFAULT_ENV
+else
+    OUTPUT_FILE=$DEFAULT_OFILE
+    CONTAINER_ID=$DEFAULT_CONTAINER
+    CK_ENV=$DEFAULT_ENV
+fi
+
+
+$cktool export-schema --team-id "$TEAM_ID" --container-id "$CONTAINER_ID" --environment "$CK_ENV" --output-file "$OUTPUT_FILE"

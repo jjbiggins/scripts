@@ -1,0 +1,37 @@
+#!/bin/bash
+
+org="https://financialmodelingprep.com/api/v3/income-statement/AAPL?&apikey=17c91d4e1210f00ee29a76fd33e1b009"
+urlprefix="https://financialmodelingprep.com/api/v3"
+ticker=$1
+data_requested=$2
+limit=$3
+
+if [[ -f "$HOME/keys/api.key" ]]; then
+    apikey=`cat "$HOME/keys/api.key" | cut -d ':' -f2`
+fi
+
+if [ -z "$ticker" ] || [ -z "$data_requested" ]; then
+    echo "BAD ARGUMENT: programs needs minimum of 2 command line arguments, $# were provided."
+    echo ""
+    echo "stockfunds [TICKER] [DATA]"
+    echo "  TICKER  -   company ticker symbol to search"
+    echo "  DATA    -   data to request to be returned."
+    echo "              possible data requests are the following:"
+    printf "                profile, quote, key-executives, search, search-ticker,\n"
+    printf "                financial-statements, income-statements, balance-sheet-statement,\n"
+    printf "                cash-flow-statement, financial-statement-symbol-list,\n"
+    printf "                income-statement-growth, cash-flow-statement-growth, balance-sheet-statement-growth"
+    echo ""
+    exit
+fi
+
+# test if a third command line arg was provided
+if [[ ! -z "$limit" ]]; then
+    limit=""
+fi
+
+echo "$apikey"
+exit
+cmd="${data_requested}/${ticker}?${limit}&apikey=${apikey}"
+url="${urlprefix}/${cmd}"
+curl "$url"
