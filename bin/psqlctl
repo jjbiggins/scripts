@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ $1 == "start" ]]; then
+    sudo -u postgres -i bash -c "pg_ctl -D /var/db/postgresql96/defaultdb -l logfile start"
+elif [[ $1 == "stop" ]]; then
+    sudo -u postgres -i bash -c "pg_ctl -D /var/db/postgresql96/defaultdb -l logfile stop"
+else
+    echo "USAGE: psqlctl [start]||[stop]"
+fi
+
+
+

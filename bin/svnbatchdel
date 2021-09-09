@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# get current status of files in svn project directory
+svnstatus=`svn status`
+
+# file that went missing in action (mia); they have been move, removed, or whatever
+MIA_files=`echo "$svnstatus" | grep ! | tr -d '!'`
+
+# create an array of all paths for files that are mia
+MIAarr=($(echo $MIA_files))
+
+echo "The Following files will be DELETED from the SVN project:" 
+for f in ${MIAarr[@]}
+do
+    echo "$f"
+done
+echo ""
+read -p "Do you wish to process? (Y/n): " response
+
+response_lower=`echo "$response" | tr [:upper:] [:lower:]`
+if [[ $response_lower == "y" ]]; then
+    svn del ${MIAarr[@]}
+else
+    echo "Exiting......."
+    exit
+fi
+
+echo ${MIAarr[@]}
+

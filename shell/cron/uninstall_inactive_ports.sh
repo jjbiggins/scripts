@@ -5,9 +5,8 @@ pass=`cat $HOME/.passwd | grep $USER | cut -d ':' -f2`
 echo "$pass" | sudo -S port installed | grep -v active | while read line;
 do
     macport=`echo "$line" | sed 's/ //g'`
-    echo "$macport"
-    
-	echo "$pass" | sudo port uninstall "$macport" &
+    echo "$pass" | sudo -S port uninstall "$macport" &
+
     BACK_PID=$!
     wait $BACK_PID
 done

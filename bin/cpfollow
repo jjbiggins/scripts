@@ -1,0 +1,12 @@
+#!/bin/bash
+
+src=$1
+dest=$2
+f=$dest
+#cp "$src" "$dest"
+case $f in
+  /*) absolute=$f;;
+  *) absolute=$PWD/$f;;
+esac
+
+cd "$absolute"

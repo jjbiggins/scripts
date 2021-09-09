@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ -z $1 ]]; then
+    cmd=`basename $0`
+    echo "usage: $cmd [REPONAME]"
+    exit
+fi
+
+echo "# $1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin "https://github.com/jjbiggins/${1}.git"
+git push -u origin main
