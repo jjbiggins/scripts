@@ -35,9 +35,9 @@ done
 "${GITCMD}" clone --bare "$DOTFILES_REMOTE_URL" "${DOTFILES_BARE_REPO}"
 
 "${GITCMD}" \
-    --git-dir="${DOTFILE_BARE_REPO}" \
+    --git-dir="${DOTFILES_BARE_REPO}" \
     --work-tree="${DOTFILES_WORK_TREE}" \
-    checkout -b "${BRANCH}"
+    checkout
 
 
 
