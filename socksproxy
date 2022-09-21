@@ -1,0 +1,11 @@
+#!/bin/bash
+
+REMOTE_USER=$1
+
+if [[ -z "$REMOTE_USER" ]]; then
+    echo "Usage: $0 USER@HOST"
+    exit 1
+fi
+
+# ssh -i ~/.ssh/id_rsa -D 1337 -f -C -q -N sammy@your_domain
+ssh -D 1337 -q -C -N -f "$REMOTE_USER"
