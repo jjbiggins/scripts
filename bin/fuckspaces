@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FILE_WITH_SPACES=$1
+FILE_WITH_UNDERSCORES=$(tr -s ' ' '_' <<< "$FILE_WITH_SPACES")
+mv "$FILE_WITH_SPACES"  $FILE_WITH_UNDERSCORES
+
+
+
+
+
