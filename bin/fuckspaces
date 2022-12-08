@@ -1,8 +1,17 @@
 #!/bin/bash
 
-FILE_WITH_SPACES=$1
-FILE_WITH_UNDERSCORES=$(tr -s ' ' '_' <<< "$FILE_WITH_SPACES")
-mv "$FILE_WITH_SPACES"  $FILE_WITH_UNDERSCORES
+FILENAME=$1
+REPLACEMENT_CHAR=$2
+
+if [[ -z $2 ]]; then
+	REPLACEMENT_CHAR='_'	
+fi 
+
+
+renamed=$(tr -s ' ' "${REPLACEMENT_CHARS}"  <<< "$FILENAME")
+
+
+mv "$FILENAME"  "$renamed"
 
 
 
