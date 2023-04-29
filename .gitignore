@@ -1,3 +1,4 @@
 .svn
 .svn/*
 *.conf
+*mailer*
