@@ -20,8 +20,17 @@ fi
   -device qemu-xhci \
   -device usb-kbd \
   -device usb-tablet \
+  -netdev  vmnet-host,id=vmnet0 \
+  -netdev  vmnet-shared,id=shared0 \
+  -netdev vmnet-bridged,id=br0,ifname=en0 \
+  -netdev vmnet-bridged,id=br1,ifname=en0 \
+  -device e1000,netdev=net0 \
+  -netdev user,id=net0,hostfwd=tcp::5555-:22 \
   -device intel-hda \
   -device hda-duplex \
   -drive file=${IMAGE},format=raw,if=virtio,cache=writethrough \
   -nographic \
   -serial mon:stdio
+
+#  -netdev user,id=gnet0,net=10.0.2.0/24,dhcpstart=10.0.2.15 \
+

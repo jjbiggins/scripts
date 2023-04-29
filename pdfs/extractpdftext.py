@@ -1,4 +1,4 @@
-#!chapter_005/src/snippet_005.py
+#!/usr/bin/env python3
 import sys
 import typing
 from borb.pdf.document.document import Document

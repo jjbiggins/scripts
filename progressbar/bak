@@ -1,0 +1,92 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <signal.h>
+#include <sys/ioctl.h>
+#include <progressbar.h>
+
+
+
+static int initialized = 0;
+static struct winsize w;
+
+static void progressbar_set_window_height(int height){
+    fprintf(stdout, "\n\0337"	    // save cursor
+			"\033[0;%dr" //cursor in the top left)
+			"\0338\033[1A\033[J" // scrolling area
+			, height);
+    fflush(stdout);
+}
+
+
+void progressbar_stop(void) {
+    progressbar_set_window_height(w.ws_row);
+}
+
+
+static void progressbar_abort(void) {
+    progressbar_stop();
+}
+
+static void progressbar_init(void) {
+    ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
+    progressbar_set_window_height(w.ws_row - 1);
+}
+
+
+void sig_handler(int signo) {
+    if ( signo == SIGINT ) {
+	printf("Received SIGINT\n");
+	progressbar_stop();
+    } else if ( signo == SIGWINCH ) {
+	progressbar_init();
+    }
+}
+
+
+
+void progressbar_start(void) {
+    //signal(SIGWINCH, &sig_handler);
+    //signal(SIGINT, &sig_handler);
+    progressbar_init();
+    initialized = 1;
+    progressbar_step(0);
+}
+
+void progressbar_step(float progress) {
+
+    char *bar;
+    int width;
+
+    if ( initialized == 0 ) {
+	fprintf(stderr, "Error: progressbar had not been initialized\n");
+	EXIT_FAILURE;
+    }
+
+    if ( progress < 0 ) {
+	progress = 0;
+    } else if ( progress > 100 ) {
+	progress = 100;
+    }
+
+    bar = malloc(w.ws_col);
+    width = w.ws_col - 40;
+
+
+    printf("width %d\n", width);
+
+    memset(bar, '.', width);
+    memset(bar, '#', (int)(width * (progress / 100)));
+    bar[width] = 0;
+    
+    fprintf(stdout, "\e[s\e[%d;0H\e[42;30mProgress: [%3d%%]\e[0m [%s]\e[u", w.ws_row + 1, (int) progress, bar);
+    fflush(stdout);
+
+    free(bar);
+}
+
+
+
+
+

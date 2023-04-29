@@ -1,0 +1,11 @@
+title = 'distros'
+description = 'supported distros'
+
+[debian]
+name = 'Debian'
+
+[version]
+  name = 'bullseye'
+  number = ''
+
+
