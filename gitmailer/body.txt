@@ -1,4 +1,0 @@
-From: joe@biggins.tech
-Subject: send email
-
-Hello, Joe
