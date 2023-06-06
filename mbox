@@ -1,0 +1,1998 @@
+From MAILER-DAEMON  Tue Mar 14 11:12:32 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 245DD43DECA7; Tue, 14 Mar 2023 11:12:32 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:12:32 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3C8CB43DECA4.1678810352/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161232.245DD43DECA7@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--3C8CB43DECA4.1678810352/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<admin@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--3C8CB43DECA4.1678810352/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 3C8CB43DECA4
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:12:29 -0500 (CDT)
+
+Final-Recipient: rfc822; admin@biggins.tech
+Original-Recipient: rfc822;admin@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--3C8CB43DECA4.1678810352/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 3C8CB43DECA4; Tue, 14 Mar 2023 11:12:29 -0500 (CDT)
+To: admin@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314161229.3C8CB43DECA4@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:12:29 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--3C8CB43DECA4.1678810352/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:12:40 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id B6DCE43DECBD; Tue, 14 Mar 2023 11:12:40 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:12:40 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="F05C643DECBB.1678810360/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161240.B6DCE43DECBD@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--F05C643DECBB.1678810360/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--F05C643DECBB.1678810360/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: F05C643DECBB
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:12:37 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--F05C643DECBB.1678810360/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id F05C643DECBB; Tue, 14 Mar 2023 11:12:37 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314161237.F05C643DECBB@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:12:37 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--F05C643DECBB.1678810360/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:24 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 667D343DED20; Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7975743D9B19.1678810404/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161324.667D343DED20@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--7975743D9B19.1678810404/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<admin@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--7975743D9B19.1678810404/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 7975743D9B19
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:25:02 -0500 (CDT)
+
+Final-Recipient: rfc822; admin@biggins.tech
+Original-Recipient: rfc822;admin@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--7975743D9B19.1678810404/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 7975743D9B19; Tue, 14 Mar 2023 10:25:02 -0500 (CDT)
+To: admin@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314152502.7975743D9B19@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:25:02 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--7975743D9B19.1678810404/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:24 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 6782843DED21; Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="735DD43DA694.1678810404/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161324.6782843DED21@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--735DD43DA694.1678810404/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--735DD43DA694.1678810404/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 735DD43DA694
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:45:30 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--735DD43DA694.1678810404/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 735DD43DA694; Tue, 14 Mar 2023 10:45:30 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314154530.735DD43DA694@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:45:30 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--735DD43DA694.1678810404/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:24 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 6812343DED23; Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8597C43DA69D.1678810404/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161324.6812343DED23@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--8597C43DA69D.1678810404/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--8597C43DA69D.1678810404/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 8597C43DA69D
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:45:37 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--8597C43DA69D.1678810404/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 8597C43DA69D; Tue, 14 Mar 2023 10:45:37 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314154537.8597C43DA69D@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:45:37 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--8597C43DA69D.1678810404/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:24 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 6D9A743DED26; Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="778ED43D9F92.1678810404/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161324.6D9A743DED26@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--778ED43D9F92.1678810404/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--778ED43D9F92.1678810404/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 778ED43D9F92
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:31:05 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--778ED43D9F92.1678810404/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 778ED43D9F92; Tue, 14 Mar 2023 10:31:05 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314153105.778ED43D9F92@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:31:05 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--778ED43D9F92.1678810404/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:26 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id EED1643DED33; Tue, 14 Mar 2023 11:13:26 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:26 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="AE81D43D9B09.1678810406/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161326.EED1643DED33@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--AE81D43D9B09.1678810406/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--AE81D43D9B09.1678810406/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: AE81D43D9B09
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:24:58 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--AE81D43D9B09.1678810406/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id AE81D43D9B09; Tue, 14 Mar 2023 10:24:58 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314152458.AE81D43D9B09@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:24:58 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--AE81D43D9B09.1678810406/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:26 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id EF0AA43DED34; Tue, 14 Mar 2023 11:13:26 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:26 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="57B6D43D9B35.1678810406/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161326.EF0AA43DED34@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--57B6D43D9B35.1678810406/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--57B6D43D9B35.1678810406/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 57B6D43D9B35
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:25:15 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--57B6D43D9B35.1678810406/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 57B6D43D9B35; Tue, 14 Mar 2023 10:25:15 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314152515.57B6D43D9B35@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:25:15 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--57B6D43D9B35.1678810406/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:26 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id EF3FD43DED35; Tue, 14 Mar 2023 11:13:26 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:26 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3671D43DA6A3.1678810406/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161326.EF3FD43DED35@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--3671D43DA6A3.1678810406/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<admin@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--3671D43DA6A3.1678810406/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 3671D43DA6A3
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:45:41 -0500 (CDT)
+
+Final-Recipient: rfc822; admin@biggins.tech
+Original-Recipient: rfc822;admin@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--3671D43DA6A3.1678810406/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 3671D43DA6A3; Tue, 14 Mar 2023 10:45:41 -0500 (CDT)
+To: admin@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314154541.3671D43DA6A3@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:45:41 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--3671D43DA6A3.1678810406/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:27 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 2CA7943DED3D; Tue, 14 Mar 2023 11:13:27 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:27 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="AA05443D9F98.1678810407/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161327.2CA7943DED3D@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--AA05443D9F98.1678810407/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--AA05443D9F98.1678810407/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: AA05443D9F98
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:31:15 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--AA05443D9F98.1678810407/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id AA05443D9F98; Tue, 14 Mar 2023 10:31:15 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314153115.AA05443D9F98@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:31:15 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--AA05443D9F98.1678810407/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:24 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 893B343DED29; Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:24 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8E67243DA07C.1678810404/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161324.893B343DED29@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--8E67243DA07C.1678810404/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--8E67243DA07C.1678810404/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 8E67243DA07C
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 10:33:26 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--8E67243DA07C.1678810404/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 8E67243DA07C; Tue, 14 Mar 2023 10:33:26 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314153326.8E67243DA07C@master.biggins.tech>
+Date: Tue, 14 Mar 2023 10:33:26 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--8E67243DA07C.1678810404/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:38 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id B779C43DED50; Tue, 14 Mar 2023 11:13:38 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:38 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="290F343DED49.1678810418/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161338.B779C43DED50@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--290F343DED49.1678810418/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<cloud.accnts@gmail.com>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--290F343DED49.1678810418/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 290F343DED49
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:13:36 -0500 (CDT)
+
+Final-Recipient: rfc822; cloud.accnts@gmail.com
+Original-Recipient: rfc822;cloud.accnts@gmail.com
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--290F343DED49.1678810418/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 290F343DED49; Tue, 14 Mar 2023 11:13:36 -0500 (CDT)
+To: cloud.accnts@gmail.com
+Subject: Test Postfix
+Message-Id: <20230314161336.290F343DED49@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:13:36 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--290F343DED49.1678810418/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:44 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 771AA43DED59; Tue, 14 Mar 2023 11:13:44 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:44 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="EA52D43DED57.1678810424/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161344.771AA43DED59@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--EA52D43DED57.1678810424/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--EA52D43DED57.1678810424/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: EA52D43DED57
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:13:41 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--EA52D43DED57.1678810424/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id EA52D43DED57; Tue, 14 Mar 2023 11:13:41 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314161341.EA52D43DED57@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:13:41 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--EA52D43DED57.1678810424/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:13:48 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id F2D7243DED60; Tue, 14 Mar 2023 11:13:48 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:13:48 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8473243DED5E.1678810428/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161348.F2D7243DED60@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--8473243DED5E.1678810428/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<jjbiggins@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0
+    Must issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--8473243DED5E.1678810428/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 8473243DED5E
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:13:46 -0500 (CDT)
+
+Final-Recipient: rfc822; jjbiggins@biggins.tech
+Original-Recipient: rfc822;jjbiggins@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--8473243DED5E.1678810428/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 8473243DED5E; Tue, 14 Mar 2023 11:13:46 -0500 (CDT)
+To: jjbiggins@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314161346.8473243DED5E@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:13:46 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--8473243DED5E.1678810428/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:15:01 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 9FEA043DEDAB; Tue, 14 Mar 2023 11:15:01 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:15:01 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="35E7F43DEDA7.1678810501/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161501.9FEA043DEDAB@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--35E7F43DEDA7.1678810501/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--35E7F43DEDA7.1678810501/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 35E7F43DEDA7
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:14:59 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--35E7F43DEDA7.1678810501/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 35E7F43DEDA7; Tue, 14 Mar 2023 11:14:59 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314161459.35E7F43DEDA7@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:14:59 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--35E7F43DEDA7.1678810501/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:17:18 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id DC98743DEF2B; Tue, 14 Mar 2023 11:17:18 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:17:18 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="1334943DEF29.1678810638/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161718.DC98743DEF2B@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--1334943DEF29.1678810638/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--1334943DEF29.1678810638/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 1334943DEF29
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:17:16 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--1334943DEF29.1678810638/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 1334943DEF29; Tue, 14 Mar 2023 11:17:16 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314161716.1334943DEF29@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:17:16 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--1334943DEF29.1678810638/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:18:26 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 2BDB843DF00B; Tue, 14 Mar 2023 11:18:26 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:18:26 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="6DF4B43DF009.1678810706/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314161826.2BDB843DF00B@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--6DF4B43DF009.1678810706/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--6DF4B43DF009.1678810706/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 6DF4B43DF009
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:18:23 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--6DF4B43DF009.1678810706/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 6DF4B43DF009; Tue, 14 Mar 2023 11:18:23 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314161823.6DF4B43DF009@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:18:23 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--6DF4B43DF009.1678810706/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:21:29 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 8C78343DF0B5; Tue, 14 Mar 2023 11:21:29 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:21:29 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="D53C743DF0B2.1678810889/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314162129.8C78343DF0B5@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--D53C743DF0B2.1678810889/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--D53C743DF0B2.1678810889/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: D53C743DF0B2
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:21:26 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--D53C743DF0B2.1678810889/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id D53C743DF0B2; Tue, 14 Mar 2023 11:21:26 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314162126.D53C743DF0B2@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:21:26 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--D53C743DF0B2.1678810889/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:22:59 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id BF4E043DF218; Tue, 14 Mar 2023 11:22:59 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:22:59 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="2B5F243DF216.1678810979/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314162259.BF4E043DF218@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--2B5F243DF216.1678810979/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--2B5F243DF216.1678810979/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 2B5F243DF216
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:22:57 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--2B5F243DF216.1678810979/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 2B5F243DF216; Tue, 14 Mar 2023 11:22:57 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314162257.2B5F243DF216@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:22:57 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--2B5F243DF216.1678810979/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:28:50 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id F380343DF52F; Tue, 14 Mar 2023 11:28:49 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:28:49 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="88C1A43DF52D.1678811329/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314162849.F380343DF52F@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--88C1A43DF52D.1678811329/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--88C1A43DF52D.1678811329/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 88C1A43DF52D
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:28:47 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--88C1A43DF52D.1678811329/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 88C1A43DF52D; Tue, 14 Mar 2023 11:28:47 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314162847.88C1A43DF52D@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:28:47 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--88C1A43DF52D.1678811329/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:29:20 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id AC00843DF54F; Tue, 14 Mar 2023 11:29:20 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:29:20 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="DC43043DF54B.1678811360/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314162920.AC00843DF54F@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--DC43043DF54B.1678811360/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--DC43043DF54B.1678811360/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: DC43043DF54B
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:29:17 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--DC43043DF54B.1678811360/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id DC43043DF54B; Tue, 14 Mar 2023 11:29:17 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314162917.DC43043DF54B@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:29:17 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--DC43043DF54B.1678811360/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:30:40 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id D6E3A43DF5A1; Tue, 14 Mar 2023 11:30:40 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:30:40 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="50BCB43DF591.1678811440/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314163040.D6E3A43DF5A1@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--50BCB43DF591.1678811440/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--50BCB43DF591.1678811440/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 50BCB43DF591
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:30:38 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--50BCB43DF591.1678811440/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 50BCB43DF591; Tue, 14 Mar 2023 11:30:38 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314163038.50BCB43DF591@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:30:38 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--50BCB43DF591.1678811440/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:35:05 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id C3CB343DF6B9; Tue, 14 Mar 2023 11:35:05 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:35:05 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="31DB143DF6B7.1678811705/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314163505.C3CB343DF6B9@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--31DB143DF6B7.1678811705/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.154.19] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--31DB143DF6B7.1678811705/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 31DB143DF6B7
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:35:03 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--31DB143DF6B7.1678811705/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 31DB143DF6B7; Tue, 14 Mar 2023 11:35:03 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314163503.31DB143DF6B7@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:35:03 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--31DB143DF6B7.1678811705/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:46:44 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 4460543DFBA4; Tue, 14 Mar 2023 11:46:44 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:46:44 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8064343DFBA1.1678812404/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314164644.4460543DFBA4@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--8064343DFBA1.1678812404/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.155.28] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--8064343DFBA1.1678812404/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 8064343DFBA1
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:46:41 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--8064343DFBA1.1678812404/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 8064343DFBA1; Tue, 14 Mar 2023 11:46:41 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314164641.8064343DFBA1@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:46:41 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--8064343DFBA1.1678812404/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:50:59 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 34B9743DFD15; Tue, 14 Mar 2023 11:50:59 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:50:59 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8CDFB43DFD13.1678812659/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314165059.34B9743DFD15@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--8CDFB43DFD13.1678812659/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.155.28] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--8CDFB43DFD13.1678812659/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 8CDFB43DFD13
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:50:56 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--8CDFB43DFD13.1678812659/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 8CDFB43DFD13; Tue, 14 Mar 2023 11:50:56 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314165056.8CDFB43DFD13@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:50:56 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--8CDFB43DFD13.1678812659/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:51:26 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id D3B4043DFD54; Tue, 14 Mar 2023 11:51:26 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:51:26 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="5B80743DFD3A.1678812686/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314165126.D3B4043DFD54@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--5B80743DFD3A.1678812686/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.155.28] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--5B80743DFD3A.1678812686/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 5B80743DFD3A
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:51:24 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--5B80743DFD3A.1678812686/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 5B80743DFD3A; Tue, 14 Mar 2023 11:51:24 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314165124.5B80743DFD3A@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:51:24 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--5B80743DFD3A.1678812686/master.biggins.tech--
+
+From MAILER-DAEMON  Tue Mar 14 11:53:17 2023
+Return-Path: <>
+X-Original-To: jjbiggins@master.biggins.tech
+Delivered-To: jjbiggins@master.biggins.tech
+Received: by master.biggins.tech (Postfix)
+	id 9E7B143DFEAB; Tue, 14 Mar 2023 11:53:17 -0500 (CDT)
+Date: Tue, 14 Mar 2023 11:53:17 -0500 (CDT)
+From: MAILER-DAEMON@master.biggins.tech (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: jjbiggins@master.biggins.tech
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="435ED43DFEA1.1678812797/master.biggins.tech"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20230314165317.9E7B143DFEAB@master.biggins.tech>
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--435ED43DFEA1.1678812797/master.biggins.tech
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host master.biggins.tech.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<joe@biggins.tech>: host smtp.mail.me.com[17.57.155.28] said: 530 5.7.0 Must
+    issue a STARTTLS command first (in reply to MAIL FROM command)
+
+--435ED43DFEA1.1678812797/master.biggins.tech
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; master.biggins.tech
+X-Postfix-Queue-ID: 435ED43DFEA1
+X-Postfix-Sender: rfc822; jjbiggins@master.biggins.tech
+Arrival-Date: Tue, 14 Mar 2023 11:53:15 -0500 (CDT)
+
+Final-Recipient: rfc822; joe@biggins.tech
+Original-Recipient: rfc822;joe@biggins.tech
+Action: failed
+Status: 5.7.0
+Remote-MTA: dns; smtp.mail.me.com
+Diagnostic-Code: smtp; 530 5.7.0 Must issue a STARTTLS command first
+
+--435ED43DFEA1.1678812797/master.biggins.tech
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <jjbiggins@master.biggins.tech>
+Received: by master.biggins.tech (Postfix, from userid 501)
+	id 435ED43DFEA1; Tue, 14 Mar 2023 11:53:15 -0500 (CDT)
+To: joe@biggins.tech
+Subject: Test Postfix
+Message-Id: <20230314165315.435ED43DFEA1@master.biggins.tech>
+Date: Tue, 14 Mar 2023 11:53:15 -0500 (CDT)
+From: jjbiggins@master.biggins.tech (Joe Biggins)
+
+Test sending email from Postfix
+
+--435ED43DFEA1.1678812797/master.biggins.tech--
+
